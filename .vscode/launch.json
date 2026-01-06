@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BC Local",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "OnPrem",
+            "server": "https://bcserver",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "port": 7049,
+            "tenant": "default",
+            "startupObjectType": "Page",
+            "startupObjectId": 22,
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "schemaUpdateMode": "ForceSync",
+            "usePublicURLFromServer": false
+        }
+    ]
+}
